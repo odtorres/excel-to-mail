@@ -18,7 +18,7 @@ async function main() {
                     content = element.content.replace("$name", element.name)
                 }
                 console.log(element.to+" | " + subject+" | "+ content)
-                //mail.send(element.to, subject, content)
+                mail.send(element.to, subject, content)
             }
         });
 
